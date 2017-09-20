@@ -6,7 +6,7 @@
 #include "HitInfo.h"
 #include "mt_random.h"
 #include "PointLight.h"
-
+// Comment
 using namespace optix;
 
 bool PointLight::sample(const float3& pos, float3& dir, float3& L) const
