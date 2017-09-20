@@ -1,0 +1,9 @@
+HitInfo hit;
+hit.shading_normal
+
+cos_theta = max(dot(dir, hit.shading_normal), 0.0f);
+
+sample(const float3d pos, float3d dir, float3d Li);
+
+Li = l / abs(p_source - pos)^2;
+
